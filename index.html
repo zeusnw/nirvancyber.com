@@ -1392,186 +1392,157 @@
 </section>
 
 <!-- CLIENTS -->
-<section id="clients" style="background: var(--black); padding: 6rem 4rem;">
-  <div style="text-align:center; margin-bottom: 3.5rem;">
-    <div class="section-label" style="justify-content:center; display:flex;">Trusted By</div>
-    <h2 class="section-title">Organisations Nitin Has<br>Secured &amp; Served</h2>
-    <p class="section-desc" style="margin: 0.75rem auto 0; text-align:center;">A track record of delivering cybersecurity outcomes for some of the world's most recognised enterprises, financial institutions, and public sector bodies.</p>
+<section id="clients" style="background:var(--black); padding:5rem 0; overflow:hidden;">
+
+  <div style="text-align:center; margin-bottom:3rem; padding:0 4rem;">
+    <div class="section-label" style="justify-content:center; display:flex;">Track Record</div>
+    <h2 class="section-title" style="font-size:clamp(2rem,4vw,3rem);">Organisations Nitin Has<br>Secured &amp; Served</h2>
+    <p class="section-desc" style="margin:0.75rem auto 0; text-align:center; max-width:52ch;">A track record of delivering cybersecurity outcomes across financial services, government, retail, telecoms, energy and higher education.</p>
   </div>
 
-  <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; margin-bottom: 3rem;">
-
-    <!-- Walmart -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/walmart.com" alt="Walmart" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#0071ce;">W</div>
-      </div>
-      <div class="client-name">Walmart</div>
-      <div class="client-sector">Retail &amp; eCommerce</div>
-      <div class="client-tags">
-        <span class="ctag">PCI-DSS</span>
-        <span class="ctag">Cloud Security</span>
-      </div>
+  <!-- Row 1 — scrolls left -->
+  <div style="overflow:hidden; position:relative; margin-bottom:1px;">
+    <div style="position:absolute; left:0; top:0; bottom:0; width:100px; background:linear-gradient(to right, var(--black), transparent); z-index:2; pointer-events:none;"></div>
+    <div style="position:absolute; right:0; top:0; bottom:0; width:100px; background:linear-gradient(to left, var(--black), transparent); z-index:2; pointer-events:none;"></div>
+    <div id="client-row-1" style="display:flex; gap:0; width:max-content; animation:rollLeft 35s linear infinite;">
     </div>
-
-    <!-- Asda -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/asda.com" alt="Asda" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#8bc34a;color:#1a2e00;">A</div>
-      </div>
-      <div class="client-name">Asda</div>
-      <div class="client-sector">Retail &amp; Supply Chain</div>
-      <div class="client-tags">
-        <span class="ctag">Network Security</span>
-        <span class="ctag">Compliance</span>
-      </div>
-    </div>
-
-    <!-- Tesco Bank -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/tescobank.com" alt="Tesco Bank" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#e31837;">T</div>
-      </div>
-      <div class="client-name">Tesco Bank</div>
-      <div class="client-sector">Financial Services</div>
-      <div class="client-tags">
-        <span class="ctag">FCA Compliance</span>
-        <span class="ctag">Fraud Prevention</span>
-      </div>
-    </div>
-
-    <!-- Skanska -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/skanska.com" alt="Skanska" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#005596;">S</div>
-      </div>
-      <div class="client-name">Skanska</div>
-      <div class="client-sector">Construction &amp; Infrastructure</div>
-      <div class="client-tags">
-        <span class="ctag">OT Security</span>
-        <span class="ctag">Risk Assessment</span>
-      </div>
-    </div>
-
-    <!-- FCDOS -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/fcdos.com" alt="FCDOS" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#1a237e;">F</div>
-      </div>
-      <div class="client-name">FCDO Services</div>
-      <div class="client-sector">Government &amp; Defence</div>
-      <div class="client-tags">
-        <span class="ctag">Security Clearance</span>
-        <span class="ctag">GRC</span>
-      </div>
-    </div>
-
-    <!-- Atos -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/atos.net" alt="Atos" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#3d50b7;">A</div>
-      </div>
-      <div class="client-name">Atos</div>
-      <div class="client-sector">Technology &amp; IT Services</div>
-      <div class="client-tags">
-        <span class="ctag">SOC Integration</span>
-        <span class="ctag">SIEM</span>
-      </div>
-    </div>
-
-    <!-- Thomson Reuters -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/thomsonreuters.com" alt="Thomson Reuters" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#ff8000;">TR</div>
-      </div>
-      <div class="client-name">Thomson Reuters</div>
-      <div class="client-sector">Media &amp; Information</div>
-      <div class="client-tags">
-        <span class="ctag">Data Protection</span>
-        <span class="ctag">Zero Trust</span>
-      </div>
-    </div>
-
-    <!-- British Telecom -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/bt.com" alt="British Telecom" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#6600cc;">BT</div>
-      </div>
-      <div class="client-name">British Telecom</div>
-      <div class="client-sector">Telecoms &amp; Networks</div>
-      <div class="client-tags">
-        <span class="ctag">Network Pen Test</span>
-        <span class="ctag">NIS2</span>
-      </div>
-    </div>
-
-    <!-- ING -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/ing.com" alt="ING" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#ff6200;">ING</div>
-      </div>
-      <div class="client-name">ING Investment</div>
-      <div class="client-sector">Banking &amp; Investment</div>
-      <div class="client-tags">
-        <span class="ctag">DORA</span>
-        <span class="ctag">Threat Intelligence</span>
-      </div>
-    </div>
-
-    <!-- EDF Energy -->
-    <div class="client-tile">
-      <div class="client-logo-wrap">
-        <img src="https://logo.clearbit.com/edfenergy.com" alt="EDF Energy" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <div class="client-icon-fallback" style="background:#0072bc;">EDF</div>
-      </div>
-      <div class="client-name">EDF Energy</div>
-      <div class="client-sector">Energy &amp; Utilities</div>
-      <div class="client-tags">
-        <span class="ctag">OT Security</span>
-        <span class="ctag">NIS2 Compliance</span>
-      </div>
-    </div>
-
-    <!-- University of Hertfordshire -->
-    <div class="client-tile" style="grid-column: span 3;">
-      <div style="display:flex; align-items:center; gap: 1.5rem;">
-        <div class="client-logo-wrap" style="flex-shrink:0; width:64px; height:64px;">
-          <img src="https://logo.clearbit.com/herts.ac.uk" alt="University of Hertfordshire" class="client-logo-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-          <div class="client-icon-fallback" style="background:#8b1a1a; width:64px; height:64px; border-radius:10px; font-size:0.85rem;">UH</div>
-        </div>
-        <div>
-          <div class="client-name">University of Hertfordshire</div>
-          <div class="client-sector">Higher Education &amp; Research</div>
-          <div class="client-tags" style="margin-top:0.6rem;">
-            <span class="ctag">ISO 27001</span>
-            <span class="ctag">Phishing Defence</span>
-            <span class="ctag">Security Awareness Training</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <!-- Sector coverage summary -->
-  <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1rem;">
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">🏦 Financial Services</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">🛒 Retail &amp; eCommerce</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">🏛️ Government &amp; Defence</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">📡 Telecoms</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">🏗️ Infrastructure</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">⚡ Energy &amp; Utilities</div>
-    <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted); letter-spacing:0.08em; text-transform:uppercase; padding: 0.5rem 1.25rem; border: 1px solid var(--border); border-radius:4px;">🎓 Higher Education</div>
+  <!-- Row 2 — scrolls right (reverse) -->
+  <div style="overflow:hidden; position:relative; margin-top:1px;">
+    <div style="position:absolute; left:0; top:0; bottom:0; width:100px; background:linear-gradient(to right, var(--black), transparent); z-index:2; pointer-events:none;"></div>
+    <div style="position:absolute; right:0; top:0; bottom:0; width:100px; background:linear-gradient(to left, var(--black), transparent); z-index:2; pointer-events:none;"></div>
+    <div id="client-row-2" style="display:flex; gap:0; width:max-content; animation:rollRight 40s linear infinite;">
+    </div>
   </div>
+
+  <!-- Sector pills -->
+  <div style="display:flex; gap:0.75rem; flex-wrap:wrap; justify-content:center; margin-top:2.5rem; padding:0 4rem;">
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">🏦 Financial Services</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">🛒 Retail</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">🏛️ Government</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">📡 Telecoms</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">🏗️ Infrastructure</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">⚡ Energy</div>
+    <div style="font-family:var(--mono); font-size:0.65rem; color:var(--muted); letter-spacing:0.1em; text-transform:uppercase; padding:0.4rem 1rem; border:1px solid var(--border); border-radius:20px;">🎓 Education</div>
+  </div>
+
+</section>
+
+<style>
+@keyframes rollLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes rollRight {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+#client-row-1:hover, #client-row-2:hover { animation-play-state: paused; }
+
+.c-tile {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 1.1rem 2rem;
+  border-right: 1px solid var(--border);
+  flex-shrink: 0;
+  opacity: 0.55;
+  transition: opacity 0.3s, background 0.3s;
+  cursor: default;
+}
+.c-tile:hover { opacity: 1; background: rgba(255,122,0,0.04); }
+.c-tile img {
+  width: 30px; height: 30px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+  padding: 3px;
+  flex-shrink: 0;
+}
+.c-tile-fb {
+  width: 30px; height: 30px;
+  border-radius: 4px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 0.6rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+.c-tile-info {}
+.c-tile-name {
+  font-family: var(--display);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--white);
+  white-space: nowrap;
+}
+.c-tile-sector {
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+</style>
+
+<script>
+(function() {
+  const row1clients = [
+    { name: "Walmart", sector: "Retail & eCommerce", domain: "walmart.com", color: "#0071ce" },
+    { name: "Asda", sector: "Retail & Supply Chain", domain: "asda.com", color: "#8bc34a" },
+    { name: "Tesco Bank", sector: "Financial Services", domain: "tescobank.com", color: "#e31837" },
+    { name: "Skanska", sector: "Construction & Infrastructure", domain: "skanska.com", color: "#005596" },
+    { name: "FCDO Services", sector: "Government & Defence", domain: "fcdo.gov.uk", color: "#1a237e" },
+    { name: "Atos", sector: "Technology & IT Services", domain: "atos.net", color: "#3d50b7" },
+  ];
+  const row2clients = [
+    { name: "Thomson Reuters", sector: "Media & Information", domain: "thomsonreuters.com", color: "#ff8000" },
+    { name: "British Telecom", sector: "Telecoms & Networks", domain: "bt.com", color: "#6600cc" },
+    { name: "ING Investment", sector: "Banking & Investment", domain: "ing.com", color: "#ff6200" },
+    { name: "EDF Energy", sector: "Energy & Utilities", domain: "edfenergy.com", color: "#0072bc" },
+    { name: "Univ. of Hertfordshire", sector: "Higher Education", domain: "herts.ac.uk", color: "#8b1a1a" },
+  ];
+
+  function makeTile(c) {
+    const tile = document.createElement('div');
+    tile.className = 'c-tile';
+
+    const img = document.createElement('img');
+    img.src = `https://logo.clearbit.com/${c.domain}`;
+    img.alt = c.name;
+
+    const fb = document.createElement('div');
+    fb.className = 'c-tile-fb';
+    fb.style.background = c.color;
+    fb.textContent = c.name.split(' ').map(w=>w[0]).join('').slice(0,3);
+
+    img.onerror = function() { this.style.display='none'; fb.style.display='flex'; };
+
+    const info = document.createElement('div');
+    info.className = 'c-tile-info';
+    info.innerHTML = `<div class="c-tile-name">${c.name}</div><div class="c-tile-sector">${c.sector}</div>`;
+
+    tile.append(img, fb, info);
+    return tile;
+  }
+
+  function fillRow(id, clients) {
+    const row = document.getElementById(id);
+    if (!row) return;
+    [...clients, ...clients, ...clients, ...clients].forEach(c => row.appendChild(makeTile(c)));
+  }
+
+  fillRow('client-row-1', row1clients);
+  fillRow('client-row-2', row2clients);
+})();
+</script>
+
 </section>
 
 <!-- TEAM -->
